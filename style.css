@@ -1,0 +1,25 @@
+body{
+    background-color: gray;
+}
+legend{
+    color: red;
+    font-weight: 700;
+}
+h1{
+    font-style: oblique;
+}
+label{
+    color: yellow;
+    font-weight: 900;
+}
+fieldset{
+    margin: 20px;
+    height: 10vh;
+}
+button{
+    color: darkblue;
+}
+alert{
+    color: green;
+    font-weight: 900;
+}
