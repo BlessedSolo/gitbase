@@ -2,7 +2,7 @@ body{
     background-color: gray;
 }
 img{
-    height: 15vh;
+    height: 40vh;
 }
 h1 {
     padding: 11px;
@@ -28,18 +28,7 @@ button{
   align-items: baseline;
 }
 header{
-    background-color: rgb(243,112,32);
-    position: fixed;
-    top: 0;
-    min-height: 77px;
-    width: 100%;
-    padding: 0px 23px;
-    display: flex;
-    align-items: center;
-    z-index: 2;
-    @media (max-width: 568px) {
-        flex-direction: column;
-    }
+  background-color: orangered;
 }
 #nav-bar {
     padding: 3px;
@@ -106,44 +95,6 @@ button {
   margin: 11px;
   padding: 7px;
   background-color: rgb(32, 243, 116);
-  border: 3px solid rgb(51,51,51);
-  border-radius: 9px;
-  @media (max-width: 568px) {
-    flex-direction: column;
-  }
-}
-}
-@media (orientation: landscape){
-  header{
-    background-color: rgb(45, 0, 128);
-    width: 100%;
-    align-items: center;
-    position: fixed;
-    margin: 0px;
-    padding: 0%;
-  }
-  body{
-    background-color: rgb(226, 43, 70);
-  }
-  #nav-bar {
-    padding: 3px;
-    margin-left: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    @media (max-width: 568px) {
-      margin-top: 1px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-}
-button {
-  margin: 11px;
-  padding: 7px;
-  background-color: rgb(64, 32, 243);
   border: 3px solid rgb(51,51,51);
   border-radius: 9px;
   @media (max-width: 568px) {
