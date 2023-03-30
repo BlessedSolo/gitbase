@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 img{
     height: 40vh;
@@ -13,22 +13,23 @@ h1 {
     font-style: oblique;
   }
   legend{
-    color: red;
     font-weight: 700;
+    font-style: italic;
 }
 label{
-    color: yellow;
     font-weight: 900;
+    font-style: italic;
 }
 button{
     color: darkblue;
 }
-.catalogue{
-  position: fixed;
-  align-items: baseline;
+#catalogue{
+  background-color: <div class="generator_color show-content is-light" data-index="2" style="height: 20%; width: 100%; left: 0px; top: 40%; transform: translate3d(0px, 0px, 0px);">        <div class="generator_color_background" style="background: rgb(84, 242, 242); box-shadow: rgb(84, 242, 242) 0px 0px 0px 1px;"></div>        <div class="generator_color_content">          <div class="generator_color_hex" data-tooltip="Select color">54F2F2</div>          <div class="generator_color_color-info">Fluorescent cyan</div>          <div class="generator_color_btns">            <div class="generator_color_remove-btn" data-tooltip="Remove color" data-tooltip-container="child"><i class="icon icon-remove-24px"></i></div>            <div class="generator_color_contrast-btn" data-tooltip="Check contrast" data-tooltip-container="child"><i class="icon icon-contrast-24px"></i></div>            <div class="generator_color_shades-btn" data-tooltip="View shades" data-tooltip-container="child"><i class="icon icon-grid-24px"></i></div>            <div class="generator_color_save-btn" data-tooltip-container="child" data-tooltip="Save color"><i class="icon icon-favorite-24px"></i><i class="icon icon-favorite-fill-24px"></i></div>            <div class="generator_color_drag-btn" data-tooltip="Drag" data-tooltip-container="child"><i class="icon icon-enlarge-horizontal-24px"></i><i class="icon icon-enlarge-vertical-24px"></i></div>            <div class="generator_color_copy-btn" data-tooltip="Copy HEX" data-tooltip-container="child"><i class="icon icon-copy-24px"></i></div>            <div class="generator_color_lock-btn" data-tooltip-container="child" data-tooltip="Toggle lock<span>CTRL + 3</span>"><i class="icon icon-lock-open-24px"></i><i class="icon icon-lock-24px"></i></div>          </div>          <div class="generator_color_bar-left"></div>          <div class="generator_color_bar-right"></div>          <div class="generator_color_add-btn-left"></div>          <div class="generator_color_add-btn-right"></div>          <div class="generator_color_compare is-small"><div><span></span></div><div><span></span></div></div>          <div class="generator_color_contrast"></div>          <div class="generator_color_multicompare"><div class="generator_color_multicompare_inner"></div></div>        </div>      </div>;
+  margin: 0px;
+  padding: 0px;
 }
 header{
-  background-color: orangered;
+  background-color: blue;
 }
 #nav-bar {
     padding: 3px;
@@ -57,7 +58,8 @@ header{
 button {
     margin: 11px;
     padding: 7px;
-    background-color: rgb(243,112,32);
+    background-color: blue;
+    color: white;
     border: 3px solid rgb(51,51,51);
     border-radius: 9px;
     @media (max-width: 568px) {
@@ -96,4 +98,13 @@ button {
     flex-direction: column;
   }
 }
+}
+.section4{
+  background-color: black;
+  height: 70vh;
+  color: blue;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin: 0px;
+  padding: 20px;
 }
